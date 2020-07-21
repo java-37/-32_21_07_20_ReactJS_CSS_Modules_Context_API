@@ -1,24 +1,22 @@
 import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import Card from './css/components/card/Card';
+import Car from './css/components/car/Car';
+import CounterContainer from './context/CounterContainer';
 
+const styles = {
+  display:'flex',
+  flexWrap:'wrap'
+}
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div style={{width:'1000px',margin:'100px auto'}}>
+      <div style={styles}>
+        <Card title='Title' subtitle='Subtitle'/>
+        <Car />
+        
+      </div>
+      <hr />
+      <CounterContainer />
     </div>
   );
 }

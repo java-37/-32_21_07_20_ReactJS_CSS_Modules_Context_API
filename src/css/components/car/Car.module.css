@@ -1,0 +1,15 @@
+.Car{
+    width: 200px;
+    margin: 15px;
+    padding: 15px;
+    box-sizing: border-box;
+}
+
+.Card{
+    border: 4px solid red;
+}
+
+.Car-title{
+    color: red;
+    font-size: 0.7rem;
+}

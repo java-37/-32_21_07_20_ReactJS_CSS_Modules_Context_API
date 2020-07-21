@@ -1,0 +1,19 @@
+.Card{
+    width:calc(100% / 4 - 30px);
+    border:1px solid black;
+    border-radius: 5px;
+    padding: 15px;
+    margin: 15px;
+    box-sizing: border-box;
+}
+
+.Card-title{
+    text-align: center;
+    font-size: 1.2rem;
+}
+
+.Card-subtitle{
+    text-align: center;
+    color: green;
+    font-size: 1rem;
+}
